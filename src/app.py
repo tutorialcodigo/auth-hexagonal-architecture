@@ -1,6 +1,14 @@
-from infra.cloud.conn import CloudServices
-from infra.cloud.nosql import NoSql
+from infra.server import fastapi_users
 
-service =  CloudServices("dynamodb")
-print(service.conn())
-db_nosql = NoSql(conn=service.conn())
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+app.include_router(   
+    fastapi_users.get_auth_router(),
+    prefix="/auth/jwt",
+    tags=["auth"]
+)
+
+

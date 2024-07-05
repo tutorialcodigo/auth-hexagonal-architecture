@@ -10,3 +10,7 @@ class BaseDatabase(ABC):
     @abstractmethod
     async def get_email(self, email:str):
         pass
+
+    @abstractmethod
+    async def update(self, email:str):
+        pass

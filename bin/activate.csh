@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/jorgeuribe/Documents/language/python/hg/auth"
+setenv VIRTUAL_ENV "/Users/jrodriguez6/Documents/code/python/auth-hexagonal-architecture"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -18,8 +18,8 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = "(auth) $prompt"
-    setenv VIRTUAL_ENV_PROMPT "(auth) "
+    set prompt = "(auth-hexagonal-architecture) $prompt"
+    setenv VIRTUAL_ENV_PROMPT "(auth-hexagonal-architecture) "
 endif
 
 alias pydoc python -m pydoc

@@ -1,4 +1,4 @@
-#!/Users/jorgeuribe/Documents/language/python/hg/auth/bin/python3.12
+#!/Users/jrodriguez6/Documents/code/python/auth-hexagonal-architecture/bin/python3.12
 
 import sys
 import json
